@@ -1,5 +1,21 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em auto;
+}
+
+
+.mybox{
+  cursor: pointer;
+  width: 255px;
+  height: 255px;
+  background-color: #222;
+  border: .5em solid #777;
+  box-shadow: 1px 1px 10px #555;
+  transition: 0.3ms;
 }
 
 .App-logo {
